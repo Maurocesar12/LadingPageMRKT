@@ -1,39 +1,59 @@
-# Landing Page Portfolio
+# Portfólio - Projeto de Landing Page
 
-Bem-vindo ao repositório do meu portfólio pessoal! 🚀
+Este repositório contém o código-fonte para um portfólio de landing page desenvolvido como um projeto para uma pessoa de marketing. O objetivo do projeto é criar uma página de apresentação profissional, destacando informações sobre serviços oferecidos, um formulário de contato e links para redes sociais.
 
-Este projeto é uma landing page que destaca minhas habilidades, serviços, e formas de contato. Foi desenvolvido com foco em um design moderno e responsivo, garantindo uma ótima experiência em dispositivos móveis e desktops.
+## Estrutura do Projeto
 
-## 🖥️ Tecnologias Utilizadas
+O projeto é estruturado da seguinte maneira:
 
-- **HTML5**: Estrutura semântica e acessível.
-- **CSS3**: Estilos modernos com efeitos de transição e animações.
-- **JavaScript**: Funcionalidades interativas e dinâmicas.
+- **HTML**: Estrutura semântica e acessível da página.
+- **CSS**: Estilos detalhados e responsivos para garantir uma boa aparência em diferentes dispositivos.
+- **JavaScript**: Scripts para interatividade e funcionalidades dinâmicas.
+- **Font Awesome**: Ícones sociais e de interface.
+- **Google Fonts**: Fontes personalizadas para melhorar a tipografia.
 
-## 📑 Estrutura do Projeto
+## Seções da Página
 
-- `index.html`: Página principal da landing page.
-- `style.css`: Arquivo principal de estilos.
-- `script.js`: Arquivo JavaScript para funcionalidades interativas.
-- `img/`: Pasta contendo as imagens utilizadas no projeto.
+### 1. Home
+- **Descrição**: Seção introdutória com uma chamada para ação.
+- **Conteúdo**: Título, descrição e botão de ação.
+- **Imagem**: Imagem de destaque à direita.
 
-## 📸 Funcionalidades
+### 2. Sobre Mim
+- **Descrição**: Informações detalhadas sobre o profissional e suas habilidades.
+- **Conteúdo**: Texto sobre a experiência e objetivos.
+- **Imagem**: Imagem adicional para suporte visual.
 
-- **Hero Section**: Seção inicial com um design atraente, incluindo um botão de chamada para ação.
-- **Sobre Mim**: Seção onde destaco minhas habilidades e experiência profissional.
-- **Serviços**: Seção detalhando os serviços que ofereço.
-- **Formulário de Contato**: Formulário estilizado para que visitantes possam entrar em contato comigo.
-- **Footer**: Rodapé com links para redes sociais e informações adicionais.
+### 3. Meus Serviços
+- **Descrição**: Lista de serviços oferecidos.
+- **Conteúdo**: Cards de serviço com título e descrição.
 
-## 📱 Responsividade
+### 4. Contato
+- **Descrição**: Formulário de contato para comunicação direta.
+- **Campos**: Nome, E-mail e Mensagem.
+- **Botão**: Enviar.
 
-O layout foi projetado para ser totalmente responsivo, adaptando-se a diferentes tamanhos de tela:
+### 5. Ícones de Redes Sociais
+- **Descrição**: Links para perfis sociais.
+- **Ícones**: Instagram e Facebook.
 
-- **Mobile First**: O design foi otimizado para dispositivos móveis primeiro, garantindo uma experiência fluida em todas as plataformas.
-- **Media Queries**: Utilização de media queries para ajustar o layout em diferentes resoluções, até mesmo para telas muito pequenas (como 412px).
+## Tecnologias Utilizadas
 
-## 🚀 Como Rodar o Projeto
+- **HTML5**: Estruturação e marcação da página.
+- **CSS3**: Estilização e design responsivo.
+- **JavaScript**: Funcionalidades dinâmicas e interatividade.
+- **Font Awesome**: Ícones sociais.
+- **Google Fonts**: Tipografia customizada.
 
-1. Clone este repositório:
+## Recursos e Funcionalidades
+
+- **Responsividade**: Layout adaptável para diferentes tamanhos de tela.
+- **Efeitos Visuais**: Transições e animações suaves.
+- **Formulário de Contato**: Envio de mensagens via Formsubmit.
+- **Menu de Navegação**: Menus adaptativos para dispositivos móveis.
+
+## Como Executar o Projeto
+
+1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/portfolio-landing-page.git
+   git clone https://github.com/seu-usuario/portfolio.git
