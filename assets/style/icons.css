@@ -1,0 +1,40 @@
+.icons{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    padding-right: 40px;
+    
+}
+.icons .tools{
+    z-index: 1000;
+}
+
+.icons .tools ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    top: 20px;
+    list-style: none;
+    margin-left: 0;
+    gap: 15px;
+     
+}
+.icons .tools ul li img {
+    max-width: 40px;
+    margin: 0 .9rem;
+    transition: margin 0.3s ease;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.icons .tools ul li img:hover {
+    transform: scale(1.2);
+}
+
+.tools, .tools a, .tools img {
+    pointer-events: auto; /* Garante que os eventos de clique funcionem */
+}

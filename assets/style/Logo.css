@@ -1,0 +1,6 @@
+.logo img {
+    max-width: 152px;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}

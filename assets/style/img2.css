@@ -1,0 +1,37 @@
+.img2 {
+    position: absolute;
+    left: -50px; /* Posiciona a imagem no lado esquerdo */
+    top: -20px; /* Alinha ao topo da seção */
+    width: 31%; /* Ajuste conforme necessário */
+    height:auto;/* Mantém a proporção da altura com base na largura */
+    z-index: -1; /* Garante que a imagem fique atrás do texto */
+    opacity: 0.3; /* Ajusta a opacidade para não desviar a atenção do texto */
+    transform: scaleX(-1);
+    background-size: cover; /* Garante que a imagem cubra a área de fundo */
+    background-attachment: fixed; /* Faz com que a imagem de fundo se mova de forma diferente do conteúdo */
+    background-position: left top; /* Inicialmente, a imagem está posicionada à esquerda */
+    transition: left 2s ease-out;
+    cursor: pointer;
+    
+}
+
+.services-container img2{
+    width: 100%;
+    height: auto;
+
+}
+.img2 enter{
+    left: 0;    
+}
+
+@media only screen and (max-width:767px){
+   .content-section .img2 {
+        width: 60%; /* Ajusta a largura da imagem para dispositivos móveis */
+        top: 0; /* Alinha a imagem ao topo da tela */
+        left: 0; /* Garante que a imagem permaneça no canto esquerdo */
+        height: auto; /* Mantém a proporção da altura com base na largura */
+        transform: scaleX(-1); /* Mantém o efeito de espelhamento, se desejado */
+        opacity: 0.3;
+        z-index: -1000;
+    }
+}

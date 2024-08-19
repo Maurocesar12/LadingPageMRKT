@@ -1,0 +1,71 @@
+.img {
+    position: absolute;
+    right: 0; /* Alinha a imagem ao lado direito da hero-section */
+    bottom: 0; /* Coloca a imagem na parte inferior da hero-section */
+    max-width: 100%; /* Aumenta a largura máxima da imagem */
+    width: 120%; /* Aumenta a largura da imagem para preencher mais a tela */
+    height: auto; /* Mantém a proporção da altura */
+    z-index: 1; /* Garante que a imagem fique atrás do texto */
+    opacity: 0.9; /* Torna a imagem um pouco mais discreta */
+    border-radius: 2%; /* Borda arredondada suave */
+}
+
+.img img {
+    width: 110%; /* Ajusta a largura da imagem para preencher o container */
+    height: auto; /* Mantém a proporção da altura */
+    filter: blur(0.2px); /* Adiciona efeito de desfoque sutil */
+    object-fit: cover; /* Faz a imagem cobrir o container sem distorcer */
+    border-radius: 1%; /* Adiciona borda arredondada à imagem */
+}
+
+/* Media Queries */
+
+/* Estilo para tablets (768px e acima) */
+@media only screen and (min-width: 768px) {
+    .img {
+        position: absolute;
+        right: 0; /* Ajusta a posição da imagem */
+        bottom: 0; /* Coloca a imagem na parte inferior do hero-content */
+        max-width: 40%; /* Ajusta a largura da imagem em tablets */
+        width: auto; /* Mantém a proporção da imagem */
+        height: auto; /* Mantém a proporção da altura */
+        top: 10px; /* Ajusta o topo para não sobrepor o conteúdo */
+        z-index: 1; /* Garante que a imagem fique atrás do texto */
+        opacity: 0.9; /* Torna a imagem um pouco mais discreta */
+        overflow: hidden; 
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Adiciona transições suaves */
+        border-radius: 5%; /* Borda arredondada suave */
+    }
+
+    .img img {
+        width: 100%; /* Ajusta a largura da imagem para preencher o container */
+        height: auto; /* Mantém a proporção da altura */
+        filter: blur(0.2px); /* Adiciona efeito de desfoque sutil */
+        object-fit: cover; /* Faz a imagem cobrir o container sem distorcer */
+        border-radius: 5%; /* Adiciona borda arredondada à imagem */
+    }
+}
+
+/* Estilo para dispositivos móveis (767px e abaixo) */
+@media only screen and (max-width: 767px) {
+    .img {
+        position: static; /* Remove o posicionamento absoluto */
+        max-width: 100%; /* Ajusta a largura para preencher o container */
+        width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
+        height: auto; /* Mantém a proporção da altura */
+        margin: 20px 0; /* Adiciona margens para espaçamento vertical */
+        transform: none; /* Remove transformações para dispositivos móveis */
+        bottom: auto; /* Remove o posicionamento vertical */
+        right: auto; /* Remove o posicionamento horizontal */
+        top: auto; /* Remove o posicionamento vertical superior */
+        opacity: 1; /* Torna a imagem completamente visível */
+    }
+    
+    .img img {
+        width: 90%; /* Ajusta a largura da imagem para preencher o container */
+        height: auto; /* Mantém a proporção da altura */
+        border-radius: 10%; /* Ajusta a borda arredondada para dispositivos móveis */
+        filter: blur(0.1px); /* Reduz o desfoque para dispositivos móveis */
+        margin-top: 20px;
+    }
+}

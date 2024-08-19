@@ -1,0 +1,22 @@
+.whatsappicon{
+    display: inline-block;
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    color: white;
+    border-radius: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    z-index: 1000;
+    transition: background-color 0.4s, transform 0.4s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.6s;
+    border: 2px solid #128C7E;
+
+}
+.whatsappicon:hover{
+    transform: translateY(-6px);
+    transform: scale(1.5);
+}
