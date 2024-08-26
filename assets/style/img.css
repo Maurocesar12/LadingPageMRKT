@@ -3,7 +3,7 @@
     right: 0; /* Alinha a imagem ao lado direito da hero-section */
     bottom: 0; /* Coloca a imagem na parte inferior da hero-section */
     max-width: 100%; /* Aumenta a largura máxima da imagem */
-    width: 120%; /* Aumenta a largura da imagem para preencher mais a tela */
+    width: 100%; /* Aumenta a largura da imagem para preencher mais a tela */
     height: auto; /* Mantém a proporção da altura */
     z-index: 1; /* Garante que a imagem fique atrás do texto */
     opacity: 0.9; /* Torna a imagem um pouco mais discreta */

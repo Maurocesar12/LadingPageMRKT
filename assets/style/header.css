@@ -114,9 +114,9 @@ header.shrink {
 }
 
 /* Estilos para telas muito pequenas (412px e abaixo) */
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 426px) {
     .nav-toggle {
-        padding: 8px;
+        padding: 35px;
         font-size: 1.2rem;
     }
 

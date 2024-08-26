@@ -38,11 +38,15 @@ window.addEventListener('scroll', function() {
 });
 
     /* Envio de mensagem do formulario */
-document.getElementById("contactForm")?.addEventListener('submit', function (event) {
-    event.preventDefault();
-    alert('Enviado com sucesso!');
+
+    document.getElementById("contactForm")?.addEventListener('submit', function (event) {
+        event.preventDefault();
+        alert('Enviado com sucesso!');
+        this.submit();
     // Considerar remoção do this.submit() se o formulário já está sendo processado por JavaScript
 });
+
+
 
 /* Menu hamburguer */
 document.addEventListener('DOMContentLoaded', () => {

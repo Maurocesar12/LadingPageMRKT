@@ -3,6 +3,9 @@
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
 }
+html, body {
+    overflow-x: hidden;
+}
 
 body {
     margin: 0;
@@ -126,7 +129,7 @@ nav ul li a:hover {
     transition: transform 0.9s ease-out, opacity 0.9s ease-out;
     transform: translateX(-100%);
     opacity: 0;
-    top:100px
+    top:100px;
     
 }
 
@@ -164,16 +167,17 @@ nav ul li a:hover {
 .services-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 32px;
     margin-top: 40px;
 }
 
 .service-card {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 8px 18px  #00c3ff3d;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 10px;
-    transition: transform 0.4s;
+    transition: transform 0.4s, box-shadow 0.4s;
+    text-align: center; /* Center-align text content */
 }
 
 .titleservice-card {
@@ -183,6 +187,7 @@ nav ul li a:hover {
 
 .service-card:hover {
     transform: translateY(-12px);
+    box-shadow: 0 12px 24px rgba(0, 195, 255, 0.35);
 }
 
 form {
@@ -343,7 +348,7 @@ footer {
     }
 
 /* Estilo para telas muito pequenas (412px e abaixo) */
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 426px) {
     .nav-toggle {
         padding: 8px;
         font-size: 1.2rem;
@@ -355,10 +360,16 @@ footer {
 
     .hero-content h1 {
         font-size: 2rem; /* Ajusta o tamanho da fonte para telas menores */
+        padding-top: 20px;
+        padding-right: 10px;
     }
 
     .hero-content p {
         font-size: 1rem; /* Ajusta o tamanho da fonte para telas menores */
     }
 }
+    .service-card {
+        padding: 2px;
+        font-size: 15px;
+    }
 
